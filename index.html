@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Church Website - Custom Interactive Nav and Footer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="/Images/logo.jpg" alt="" id="logo">
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#" data-label="Home">Home</a>
+        <a href="#" data-label="About">About</a>
+        <a href="#" data-label="Services">Services</a>
+        <a href="#" data-label="Events">Events</a>
+        <a href="#" data-label="Contact">Contact</a>
+      </div>
+      <div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" role="button" tabindex="0">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section class="church-info">
+      <h1>Welcome to Our Church</h1>
+      <p>We are a vibrant and welcoming community dedicated to faith, hope, and love. Our mission is to inspire, support, and serve our members and local area through worship, fellowship, and outreach programs.</p>
+      <p>Join us for weekly services, community events, and opportunities to grow spiritually and connect with others.</p>
+    </section>
+
+    <section class="members">
+      <h2>Our Members</h2>
+      <div class="members-grid" aria-label="Photos of our church members">
+        <!-- Placeholder member cards -->
+        <div class="member-card" title="Member 1">
+          <img class="member-img" src="https://randomuser.me/api/portraits/women/65.jpg" alt="Photo of Member 1" />
+          <div class="member-name">Sarah Johnson</div>
+        </div>
+        <div class="member-card" title="Member 2">
+          <img class="member-img" src="https://randomuser.me/api/portraits/men/42.jpg" alt="Photo of Member 2" />
+          <div class="member-name">Michael Lee</div>
+        </div>
+        <div class="member-card" title="Member 3">
+          <img class="member-img" src="https://randomuser.me/api/portraits/women/48.jpg" alt="Photo of Member 3" />
+          <div class="member-name">Olivia Smith</div>
+        </div>
+        <div class="member-card" title="Member 4">
+          <img class="member-img" src="https://randomuser.me/api/portraits/men/37.jpg" alt="Photo of Member 4" />
+          <div class="member-name">James Williams</div>
+        </div>
+        <div class="member-card" title="Member 5">
+          <img class="member-img" src="https://randomuser.me/api/portraits/women/29.jpg" alt="Photo of Member 5" />
+          <div class="member-name">Emily Brown</div>
+        </div>
+        <div class="member-card" title="Member 6">
+          <img class="member-img" src="https://randomuser.me/api/portraits/men/58.jpg" alt="Photo of Member 6" />
+          <div class="member-name">David Garcia</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <div class="footer-logo">CHURCH</div>
+        <p>Building a stronger community with faith and love.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href="#" data-label="Home">Home</a><br />
+        <a href="#" data-label="About">About</a><br />
+        <a href="#" data-label="Services">Services</a><br />
+        <a href="#" data-label="Events">Events</a><br />
+        <a href="#" data-label="Contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <p>embakasi south ruben, Nairobi City</p>
+        <p>Email: ctc@gmail.com</p>
+        <p>Phone: 0706080995</p>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#" data-label="Facebook" aria-label="Facebook" title="Facebook" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22,12c0-5.52-4.48-10-10-10S2,6.48,2,12c0,5 4.04,9.13 9.25,9.88v-6.98H8.6v-2.9h2.65v-2.2c0-2.62 1.57-4.06 3.97-4.06 1.15,0 2.36.21 2.36.21v2.6h-1.33c-1.31 0-1.72.82-1.72 1.66v2h2.93l-.47 2.9h-2.46v6.98C17.96 21.13 22 17 22 12z"/></svg>
+          </a>
+          <a href="#" data-label="Twitter" aria-label="Twitter" title="Twitter" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.46 6c-.77.35-1.6.59-2.46.7a4.27 4.27 0 001.88-2.36 8.28 8.28 0 01-2.6 1 4.14 4.14 0 00-7.06 3.77 11.7 11.7 0 01-8.5-4.29 4.14 4.14 0 001.27 5.54 4.05 4.05 0 01-1.88-.52v.05a4.15 4.15 0 003.33 4.06 4.15 4.15 0 01-1.87.07 4.15 4.15 0 003.87 2.88 8.31 8.31 0 01-5.16 1.77A8.23 8.23 0 012 18.4a11.72 11.72 0 006.29 1.84c7.54 0 11.68-6.26 11.68-11.69 0-.18 0-.36-.02-.53A8.37 8.37 0 0022.46 6z"/></svg>
+          </a>
+          <a href="#" data-label="Instagram" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm0 2h10c1.65 0 3 1.35 3 3v10c0 1.65-1.35 3-3 3H7c-1.65 0-3-1.35-3-3V7c0-1.65 1.35-3 3-3zm7 3a5 5 0 11-10 0 5 5 0 0110 0zm-5 2a3 3 0 100-6 3 3 0 000 6zm4.5-3a1 1 0 11-2 0 1 1 0 012 0z"/></svg>
+          </a>
+          <a href="#" data-label="LinkedIn" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 21H3.56v-9.26H7v9.26zM5.24 10.44a2.11 2.11 0 110-4.22 2.11 2.11 0 010 4.22zM20.44 21h-3.38v-5c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.96V21h-3.38v-9.26h3.24v1.27h.05a3.56 3.56 0 013.2-1.76c3.43 0 4.06 2.26 4.06 5.2V21z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div id="modal">
+      <button id="modal-close" aria-label="Close Modal">&times;</button>
+      <div id="modal-message">Message here please</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
